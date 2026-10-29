@@ -1,0 +1,270 @@
+! name: Financial News - Outlets
+! description: Boosts reputable financial journalism and primary sources, surfaces regional business press worldwide, and removes copycat, auto-generated and low-quality stock/AI-slop sites.
+! public: false
+! author: Igor Netto
+! avatar: #0B7A4B
+
+! Weight scale used in this file: boost 1-4, downrank 1-4.
+! 4 = top tier, 3 = strong, 2 = useful / niche.
+! A domain appears in exactly ONE section so rules never conflict.
+
+! =========================================================
+! Primary sources: regulators and central banks
+! =========================================================
+$boost=4,site=sec.gov
+$boost=4,site=federalreserve.gov
+$boost=4,site=ecb.europa.eu
+$boost=4,site=bankofengland.co.uk
+$boost=4,site=bis.org
+$boost=4,site=imf.org
+$boost=3,site=treasury.gov
+
+! =========================================================
+! Primary sources: company press wires
+! =========================================================
+$boost=3,site=businesswire.com
+$boost=3,site=globenewswire.com
+$boost=3,site=prnewswire.com
+$boost=3,site=accessnewswire.com
+
+! =========================================================
+! Global financial press and wires
+! =========================================================
+$boost=4,site=reuters.com
+$boost=4,site=bloomberg.com
+$boost=4,site=ft.com
+$boost=4,site=wsj.com
+$boost=4,site=apnews.com
+$boost=4,site=economist.com
+$boost=3,site=barrons.com
+$boost=3,site=cnbc.com
+$boost=3,site=marketwatch.com
+$boost=3,site=nytimes.com
+$boost=3,site=fortune.com
+$boost=3,site=businessinsider.com
+$boost=3,site=morningstar.com
+$boost=3,site=institutionalinvestor.com
+$boost=3,site=americanbanker.com
+$boost=3,site=semafor.com
+$boost=2,site=forbes.com
+$boost=2,site=theguardian.com
+$boost=2,site=washingtonpost.com
+$boost=2,site=cnn.com
+$boost=2,site=nbcnews.com
+
+! =========================================================
+! Deal, funding and private-markets specialists
+! =========================================================
+$boost=3,site=axios.com
+$boost=3,site=theinformation.com
+$boost=3,site=techcrunch.com
+$boost=3,site=news.crunchbase.com
+$boost=3,site=pitchbook.com
+$boost=3,site=sifted.eu
+$boost=2,site=tech.eu
+$boost=2,site=dealroom.co
+$boost=2,site=mergermarket.com
+$boost=2,site=finsmes.com
+$boost=2,site=alleywatch.com
+$boost=2,site=crowdfundinsider.com
+$boost=2,site=pymnts.com
+
+! =========================================================
+! Regional - Europe (incl. Nordics)
+! =========================================================
+$boost=3,site=handelsblatt.com
+$boost=3,site=lesechos.fr
+$boost=3,site=faz.net
+$boost=3,site=nzz.ch
+$boost=3,site=ilsole24ore.com
+$boost=3,site=cincodias.elpais.com
+$boost=3,site=expansion.com
+$boost=3,site=fd.nl
+$boost=3,site=e24.no
+$boost=3,site=dn.no
+$boost=3,site=finansavisen.no
+$boost=3,site=di.se
+$boost=3,site=borsen.dk
+$boost=3,site=kauppalehti.fi
+$boost=2,site=wiwo.de
+$boost=2,site=manager-magazin.de
+$boost=2,site=lemonde.fr
+$boost=2,site=elpais.com
+$boost=2,site=cityam.com
+$boost=2,site=thetimes.co.uk
+$boost=2,site=intellinews.com
+$boost=2,site=politico.eu
+$boost=2,site=euractiv.com
+
+! =========================================================
+! Regional - Asia-Pacific
+! =========================================================
+$boost=3,site=asia.nikkei.com
+$boost=3,site=caixinglobal.com
+$boost=3,site=scmp.com
+$boost=3,site=straitstimes.com
+$boost=3,site=businesstimes.com.sg
+$boost=3,site=livemint.com
+$boost=3,site=economictimes.indiatimes.com
+$boost=3,site=business-standard.com
+$boost=3,site=moneycontrol.com
+$boost=3,site=financialexpress.com
+$boost=3,site=thehindubusinessline.com
+$boost=3,site=kedglobal.com
+$boost=3,site=theedgemalaysia.com
+$boost=3,site=afr.com
+$boost=2,site=nikkei.com
+$boost=2,site=japantimes.co.jp
+$boost=2,site=koreaherald.com
+$boost=2,site=koreatimes.co.kr
+$boost=2,site=yicaiglobal.com
+$boost=2,site=kr-asia.com
+$boost=2,site=techinasia.com
+$boost=2,site=technode.com
+$boost=2,site=thestar.com.my
+$boost=2,site=bangkokpost.com
+$boost=2,site=thejakartapost.com
+$boost=2,site=bworldonline.com
+$boost=2,site=vir.com.vn
+$boost=2,site=brecorder.com
+
+! =========================================================
+! Regional - Middle East
+! =========================================================
+$boost=3,site=zawya.com
+$boost=3,site=calcalistech.com
+$boost=3,site=globes.co.il
+$boost=2,site=thenationalnews.com
+$boost=2,site=arabnews.com
+$boost=2,site=gulfnews.com
+$boost=2,site=gulfbusiness.com
+$boost=2,site=agbi.com
+
+! =========================================================
+! Regional - Africa
+! =========================================================
+$boost=3,site=businessday.ng
+$boost=3,site=businessdailyafrica.com
+$boost=3,site=businesslive.co.za
+$boost=2,site=moneyweb.co.za
+$boost=2,site=theafricareport.com
+$boost=2,site=african.business
+$boost=2,site=techcabal.com
+
+! =========================================================
+! Regional - Americas (ex-US)
+! =========================================================
+$boost=3,site=theglobeandmail.com
+$boost=3,site=financialpost.com
+$boost=3,site=bnamericas.com
+$boost=3,site=valor.globo.com
+$boost=3,site=elfinanciero.com.mx
+$boost=2,site=bnnbloomberg.ca
+$boost=2,site=eleconomista.com.mx
+$boost=2,site=ambito.com
+$boost=2,site=df.cl
+$boost=2,site=larepublica.co
+$boost=2,site=latamlist.com
+
+! =========================================================
+! DOWNRANK: retail stock noise and syndication
+! (still findable, but originals should win)
+! =========================================================
+$downrank=4,site=seekingalpha.com
+$downrank=4,site=fool.com
+$downrank=4,site=zacks.com
+$downrank=4,site=benzinga.com
+$downrank=4,site=investing.com
+$downrank=4,site=msn.com
+$downrank=4,site=gurufocus.com
+$downrank=4,site=insidermonkey.com
+$downrank=4,site=247wallst.com
+$downrank=3,site=finance.yahoo.com
+$downrank=3,site=marketscreener.com
+$downrank=3,site=simplywall.st
+$downrank=3,site=thestreet.com
+$downrank=3,site=investorplace.com
+$downrank=3,site=tipranks.com
+$downrank=3,site=stocktwits.com
+$downrank=3,site=stockhouse.com
+$downrank=3,site=tradingview.com
+$downrank=3,site=finanzen.net
+$downrank=2,site=nasdaq.com
+
+! =========================================================
+! DOWNRANK: user-generated, social and syndication
+! =========================================================
+$downrank=4,site=aol.com
+$downrank=3,site=medium.com
+$downrank=3,site=substack.com
+$downrank=3,site=x.com
+$downrank=3,site=reddit.com
+
+! =========================================================
+! DOWNRANK: aggregators and content mills
+! =========================================================
+$downrank=4,site=marktechpost.com
+$downrank=4,site=unite.ai
+
+! =========================================================
+! DISCARD: copycat networks, auto-generated stock news,
+! AI slop, SEO farms, social. Review before trusting.
+! =========================================================
+! Auto-generated stock-news copycat network
+$discard,site=marketbeat.com
+$discard,site=americanbankingnews.com
+$discard,site=tickerreport.com
+$discard,site=etfdailynews.com
+$discard,site=themarketsdaily.com
+$discard,site=stockstory.org
+$discard,site=ainvest.com
+$discard,site=newsbreak.com
+$discard,site=tradingkey.com
+$discard,site=biggo.com
+
+! Crypto SEO / paid-content farms
+$discard,site=coinpedia.org
+$discard,site=cryptobriefing.com
+$discard,site=cryptopolitan.com
+$discard,site=ambcrypto.com
+
+! Aggregators, scrapers, propaganda mirrors, slop (carried over from base)
+$discard,site=europesays.com
+$discard,site=news-pravda.com
+$discard,site=techtimes.com
+$discard,site=itechpost.com
+$discard,site=thetechedvocate.org
+$discard,site=startupfortune.com
+$discard,site=startuphub.ai
+$discard,site=newmarketpitch.com
+$discard,site=valueaddvc.com
+$discard,site=cxodigitalpulse.com
+$discard,site=taqwah.agency
+$discard,site=yesilscience.com
+$discard,site=memesita.com
+$discard,site=seedtable.com
+$discard,site=growthhit.com
+$discard,site=bighatgroup.com
+$discard,site=ico-optics.org
+$discard,site=kpmguscareers.com
+
+! AI-content and prompt/tool-spam sites (carried over from base)
+$discard,site=aireleasetracker.com
+$discard,site=alphasignal.ai
+$discard,site=blog.mean.ceo
+$discard,site=cometapi.com
+$discard,site=coursiv.io
+$discard,site=datastudios.org
+$discard,site=eesel.ai
+$discard,site=explainx.ai
+$discard,site=kingy.ai
+$discard,site=local-ai-zone.github.io
+$discard,site=promptzone.com
+$discard,site=pub.towardsai.net
+$discard,site=releasebot.io
+
+! Social / Q&A
+$discard,site=facebook.com
+$discard,site=linkedin.com
+$discard,site=pinterest.com
+$discard,site=quora.com
